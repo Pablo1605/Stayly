@@ -1,0 +1,91 @@
+.container {
+    background-color: var(--bg-primary);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    width: 90%;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.image {
+    width: 15rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+
+.content {
+    padding: 1rem;
+}
+
+.content h2,
+.content p {
+    margin: 0 0 0.5rem;
+}
+
+.imageInfo {
+    width: 75%;
+    display: flex;
+}
+
+.separator {
+    background-color: #000000;
+    height: 7rem;
+    width: 1px;
+}
+
+.actions {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.actions button {
+    background-color: #ffffff;
+    height: 3rem;
+    width: 6rem;
+    border-radius: 0.3rem;
+    border: 1px solid #000000;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .imageInfo {
+        width: 100%;
+        height: 65%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image {
+        width: 90%;
+        height: 6rem;
+        border-radius: 0.7rem;
+        margin: 0.5rem;
+    }
+
+    .separator {
+        display: none;
+    }
+
+    .actions {
+        width: 100%;
+        height: 35%;
+        flex-direction: row;
+    }
+
+    .statusActions button {
+        height: 1.8rem;
+        width: 3rem;
+    }
+}

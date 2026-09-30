@@ -1,0 +1,48 @@
+.principalContainer {
+  backdrop-filter: brightness(90%) blur(2px);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.secondaryContainer {
+  position: relative;
+  background-color: var(--bg-primary);
+  width: min(92vw, 26rem);
+  max-height: 90vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 1.5rem;
+  padding: 2rem 1.25rem 1.5rem;
+  box-sizing: border-box;
+}
+
+.cancelButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.cancelButton button {
+  background-color: #ffffff;
+  height: 2rem;
+  width: 4rem;
+  border-radius: 0.3rem;
+  border: 1px solid #000000;
+  cursor: pointer;
+  font-size: 1rem;
+}

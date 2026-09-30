@@ -1,0 +1,42 @@
+:root {
+  font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
+  color: #19241f;
+  background: #f5f6f2;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  --bg-color: #F3F3F3;
+  --bg-primary: #FFFFFF;
+  --bg-secondary: #E3DAC9;
+  --surface-muted: #e8eee8;
+  --text-primary: #000000;
+  --text-secondary: #FFFFFF;
+  --text-muted: #64736b;
+  --border-color: #cccccc;
+  --input-bg: #E5E5E5;
+  --accent: #ffffff;
+  --accent-strong: #d4d4d4;
+  --shadow: 0 18px 45px rgba(24, 63, 53, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid var(--accent-strong);
+  outline-offset: 3px;
+}

@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  stayly-db:
+    image: postgres:16-alpine
+    container_name: stayly-postgres-container
+    environment:
+      POSTGRES_DB: stayly_db
+      POSTGRES_USER: stayly_admin
+      POSTGRES_PASSWORD: stayly_secret_pass
+    ports:
+      - "5433:5432"
+    volumes:
+      - stayly_postgres_data:/var/lib/postgresql/data
+    networks:
+      - stayly-network
+
+volumes:
+  stayly_postgres_data:
+
+networks:
+  stayly-network:
+    driver: bridge

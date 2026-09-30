@@ -1,0 +1,115 @@
+.container {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.infoSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    gap: 0.5rem;
+} 
+
+.defaultImage {
+    height: 19rem;
+    width: 23rem;
+    border-radius: 0.5rem;
+}
+
+.oneImage {
+    height: 23rem;
+    width: 45rem;
+    border-radius: 0.5rem;
+}
+
+.twoImages {
+    height: 20rem;
+    width: 24rem;
+    border-radius: 0.5rem;
+}
+
+.threeImages {
+    height: 14rem;
+    width: 16rem;
+    border-radius: 0.5rem;
+}
+
+
+.infoAndRating {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+
+
+.reserveSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15rem;
+}
+
+.reserveContainer {
+    background-color: var(--bg-primary);
+    border-radius: 0.5rem;
+    width: 80%;
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.filterButtons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+}
+
+.filterButtons button {
+    background-color: transparent;
+    height: 40%;
+    width: 20%;
+    border: none;
+    cursor: pointer;
+}
+
+.reserveButton {
+    background-color: var(--bg-secondary);
+    color: var(--text-secondary);
+    height: 35%;
+    width: 95%;
+    border-radius: 0.7rem;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.disabled {
+    background-color: #cccccc;
+    color: var(--text-secondary);
+    height: 35%;
+    width: 95%;
+    border-radius: 0.7rem;
+    border: none;
+    font-size: 1.2rem;
+}

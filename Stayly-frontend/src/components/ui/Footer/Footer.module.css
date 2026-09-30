@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    border-top: 1px solid var(--border-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border: none;
+    padding: 1.5rem max(1.5rem, calc((100% - 1120px) / 2));
+    min-height: 5rem;
+    position: absolute;
+    width: 100vw;
+}
+
+.reactIcon {
+    font-size: 1.8rem;
+    cursor: pointer;
+    margin-left: 0.8rem;
+    color: #000000;
+}
+
+.logo {
+  width: 180px;
+  max-height: 3rem;
+  height: auto;
+}

@@ -1,0 +1,113 @@
+.principalContainer {
+  backdrop-filter: brightness(90%) blur(2px);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.secondaryContainer {
+  position: relative;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  width: 50rem;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  padding: 2rem 1.25rem 1.5rem;
+  box-sizing: border-box;
+}
+
+.buttonExitModal {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  width: 2rem;
+  top: 0.75rem;
+  right: 0.35rem;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.infoSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70%;
+  gap: 0.5rem;
+}
+
+.defaultImage {
+  height: 19rem;
+  width: 23rem;
+  border-radius: 0.5rem;
+}
+
+.oneImage {
+  height: 23rem;
+  width: 45rem;
+  border-radius: 0.5rem;
+}
+
+.twoImages {
+  height: 20rem;
+  width: 24rem;
+  border-radius: 0.5rem;
+}
+
+.threeImages {
+  height: 14rem;
+  width: 16rem;
+  border-radius: 0.5rem;
+}
+
+
+.infoAndRating {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+@media (max-width: 700px) {
+  .secondaryContainer {
+    width: 95%;
+  }
+
+  .images {}
+
+  .oneImage {
+    height: 90%;
+    width: 90%;
+  }
+
+  .twoImages {
+    height: 90%;
+    width: 60%;
+  }
+
+  .threeImages {
+    height: 90%;
+    width: 40%;
+  }
+}

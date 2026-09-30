@@ -1,0 +1,522 @@
+[
+    {
+        "title": "Cabaña Los Andes",
+        "description": "Hermosa cabaña rodeada de naturaleza con excelentes vistas de la Cordillera de los Andes.",
+        "pricePerNight": 85000,
+        "maxGuest": 4,
+        "maxBedrooms": 2,
+        "address": "Ruta Provincial 82 Km 25",
+        "city": "Mendoza",
+        "images": [
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404492/cabana-los-andes-1.jpg",
+                "publicId": "cabana-los-andes-1",
+                "displayOrder": 1
+            },
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404488/cabana-los-andes-2.jpg",
+                "publicId": "cabana-los-andes-2",
+                "displayOrder": 2
+            }
+        ]
+    },
+    {
+        "title": "Hotel Vista del Lago",
+        "description": "Alojamiento moderno ubicado frente al lago, ideal para disfrutar de unos días de descanso.",
+        "pricePerNight": 110000,
+        "maxGuest": 2,
+        "maxBedrooms": 1,
+        "address": "Av. del Lago 542",
+        "city": "San Rafael",
+        "images": [
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404491/hotel-vista-lago-1.jpg",
+                "publicId": "hotel-vista-lago-1",
+                "displayOrder": 1
+            },
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404489/hotel-vista-lago_-2.jpg",
+                "publicId": "hotel-vista-lago_-2",
+                "displayOrder": 2
+            }
+        ]
+    },
+    {
+        "title": "Casa del Sol",
+        "description": "Casa amplia y luminosa con jardín privado y espacios ideales para familias.",
+        "pricePerNight": 95000,
+        "maxGuest": 6,
+        "maxBedrooms": 3,
+        "address": "Calle Las Heras 821",
+        "city": "Mendoza",
+        "images": [
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404493/casa-del-sol-1.jpg",
+                "publicId": "casa-del-sol-1",
+                "displayOrder": 1
+            },
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404491/casa-del-sol-2.jpg",
+                "publicId": "casa-del-sol-2",
+                "displayOrder": 2
+            },
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404489/casa-del-sol-3.jpg",
+                "publicId": "casa-del-sol-3",
+                "displayOrder": 3
+            }
+        ]
+    },
+    {
+        "title": "Refugio Patagónico",
+        "description": "Acogedor refugio de montaña rodeado de bosques y paisajes naturales de la Patagonia.",
+        "pricePerNight": 125000,
+        "maxGuest": 5,
+        "maxBedrooms": 2,
+        "address": "Camino del Cerro 1840",
+        "city": "Bariloche",
+        "images": [
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404493/refugio-patagonico-1.jpg",
+                "publicId": "refugio-patagonico-1",
+                "displayOrder": 1
+            },
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404487/refugio-patagonico-2.jpg",
+                "publicId": "refugio-patagonico-2",
+                "displayOrder": 2
+            }
+        ]
+    },
+    {
+        "title": "Departamento Centro Porteño",
+        "description": "Moderno departamento ubicado en el corazón de Buenos Aires, cerca de restaurantes y atracciones.",
+        "pricePerNight": 78000,
+        "maxGuest": 3,
+        "maxBedrooms": 1,
+        "address": "Av. Corrientes 1452",
+        "city": "Buenos Aires",
+        "images": [
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404495/departamento-centro-porteno-1.jpg",
+                "publicId": "departamento-centro-porteno-1",
+                "displayOrder": 1
+            },
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404490/departamento-centro-porteno-2.jpg",
+                "publicId": "departamento-centro-porteno-2",
+                "displayOrder": 2
+            },
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404491/departamento-centro-porteno-3.jpg",
+                "publicId": "departamento-centro-porteno-3",
+                "displayOrder": 3
+            }
+        ]
+    },
+    {
+        "title": "Lodge del Bosque",
+        "description": "Elegante lodge rodeado de árboles, perfecto para una escapada tranquila en contacto con la naturaleza.",
+        "pricePerNight": 145000,
+        "maxGuest": 4,
+        "maxBedrooms": 2,
+        "address": "Ruta Provincial 71 Km 8",
+        "city": "Villa La Angostura",
+        "images": [
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404489/lodge-del-bosque-1.jpg",
+                "publicId": "lodge-del-bosque-1",
+                "displayOrder": 1
+            }
+        ]
+    },
+    {
+        "title": "Cabaña El Arrayán",
+        "description": "Cabaña cálida y confortable con vistas a las montañas y acceso a senderos naturales.",
+        "pricePerNight": 98000,
+        "maxGuest": 4,
+        "maxBedrooms": 2,
+        "address": "Calle Los Arrayanes 320",
+        "city": "San Martín de los Andes",
+        "images": [
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404494/cabana-el-arrayan-1.jpg",
+                "publicId": "cabana-el-arrayan-1",
+                "displayOrder": 1
+            },
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404495/cabana-el-arrayan-2.jpg",
+                "publicId": "cabana-el-arrayan-2",
+                "displayOrder": 2
+            },
+            {
+                "url": "https://res.cloudinary.com/.../cabana-el-arrayan-3.jpg",
+                "publicId": "stayly/accommodations/cabana-el-arrayan/3",
+                "displayOrder": 3
+            }
+        ]
+    },
+    {
+        "title": "Hotel Plaza Central",
+        "description": "Hotel confortable con ubicación céntrica, ideal para viajes de negocios o escapadas urbanas.",
+        "pricePerNight": 92000,
+        "maxGuest": 2,
+        "maxBedrooms": 1,
+        "address": "Av. San Martín 630",
+        "city": "Córdoba",
+        "images": [
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404489/hotel-plaza-central-1.jpg",
+                "publicId": "hotel-plaza-central-1",
+                "displayOrder": 1
+            }
+        ]
+    },
+    {
+        "title": "Casa Serrana",
+        "description": "Amplia casa de descanso con jardín y piscina, rodeada por las sierras cordobesas.",
+        "pricePerNight": 115000,
+        "maxGuest": 7,
+        "maxBedrooms": 3,
+        "address": "Camino de las Sierras 910",
+        "city": "Villa Carlos Paz",
+        "images": [
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404495/casa-serrana-1.jpg",
+                "publicId": "casa-serrana-1",
+                "displayOrder": 1
+            },
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404491/casa-serrana-2.jpg",
+                "publicId": "casa-serrana-2",
+                "displayOrder": 2
+            }
+        ]
+    },
+    {
+        "title": "Posada del Vino",
+        "description": "Encantadora posada ubicada entre viñedos, ideal para descubrir la gastronomía y los vinos mendocinos.",
+        "pricePerNight": 135000,
+        "maxGuest": 3,
+        "maxBedrooms": 1,
+        "address": "Calle del Viñedo 425",
+        "city": "Luján de Cuyo",
+        "images": [
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404491/posada-del-vino-1.jpg",
+                "publicId": "posada-del-vino-1",
+                "displayOrder": 1
+            },
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404487/posada-del-vino-2.jpg",
+                "publicId": "posada-del-vino-2",
+                "displayOrder": 2
+            },
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404488/posada-del-vino-3.jpg",
+                "publicId": "posada-del-vino-3",
+                "displayOrder": 3
+            }
+        ]
+    },
+    {
+        "title": "Hotel Sol de la Quebrada",
+        "description": "Alojamiento confortable con arquitectura tradicional y fácil acceso a los principales atractivos turísticos.",
+        "pricePerNight": 91000,
+        "maxGuest": 3,
+        "maxBedrooms": 1,
+        "address": "Av. Güemes 480",
+        "city": "San Salvador de Jujuy",
+        "images": [
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404489/hotel-sol-de-la-quebrada-1.jpg",
+                "publicId": "hotel-sol-de-la-quebrada-1",
+                "displayOrder": 1
+            },
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404493/hotel-sol-de-la-quebrada-2.jpg",
+                "publicId": "hotel-sol-de-la-quebrada-2",
+                "displayOrder": 2
+            }
+        ]
+    },
+    {
+        "title": "Hotel Costanera Sur",
+        "description": "Hotel moderno cercano al río, con habitaciones luminosas y excelentes espacios comunes.",
+        "pricePerNight": 105000,
+        "maxGuest": 2,
+        "maxBedrooms": 1,
+        "address": "Av. Costanera 850",
+        "city": "Rosario",
+        "images": [
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404492/hotel-costanera-sur-1.jpg",
+                "publicId": "hotel-costanera-sur-1",
+                "displayOrder": 1
+            },
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404492/hotel-costanera-sur-2.jpg",
+                "publicId": "hotel-costanera-sur-2",
+                "displayOrder": 2
+            }
+        ]
+    },
+    {
+        "title": "Casa del Lago",
+        "description": "Casa familiar con amplios ambientes y acceso privilegiado al lago.",
+        "pricePerNight": 155000,
+        "maxGuest": 8,
+        "maxBedrooms": 4,
+        "address": "Av. del Lago 1280",
+        "city": "Bariloche",
+        "images": [
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404490/casa-del-lago.1.jpg",
+                "publicId": "casa-del-lago.1",
+                "displayOrder": 1
+            }
+        ]
+    },
+    {
+        "title": "Departamento Puerto Madero",
+        "description": "Departamento moderno y elegante con excelentes vistas, ubicado en una de las zonas más exclusivas de Buenos Aires.",
+        "pricePerNight": 140000,
+        "maxGuest": 3,
+        "maxBedrooms": 1,
+        "address": "Juana Manso 780",
+        "city": "Buenos Aires",
+        "images": [
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404489/departamento-puerto-madero-1.jpg",
+                "publicId": "departamento-puerto-madero-1",
+                "displayOrder": 1
+            },
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404490/departamento-puerto-madero-2.jpg",
+                "publicId": "departamento-puerto-madero-2",
+                "displayOrder": 2
+            }
+        ]
+    },
+    {
+        "title": "Refugio de la Montaña",
+        "description": "Refugio tranquilo rodeado de montañas, ideal para desconectarse y disfrutar del paisaje.",
+        "pricePerNight": 120000,
+        "maxGuest": 4,
+        "maxBedrooms": 2,
+        "address": "Camino al Cristo 460",
+        "city": "Uspallata",
+        "images": [
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404490/refugio-de-la-montana-1.jpg",
+                "publicId": "refugio-de-la-montana-1",
+                "displayOrder": 1
+            }
+        ]
+    },
+    {
+        "title": "Hotel Quebrada Norte",
+        "description": "Hotel de estilo tradicional con cómodas habitaciones y vistas a los paisajes del norte argentino.",
+        "pricePerNight": 105000,
+        "maxGuest": 2,
+        "maxBedrooms": 1,
+        "address": "Calle Belgrano 315",
+        "city": "Salta",
+        "images": [
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404495/hotel-quebrada-norte-1.jpg",
+                "publicId": "hotel-quebrada-norte-1",
+                "displayOrder": 1
+            },
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404490/hotel-quebrada-norte-2.jpg",
+                "publicId": "hotel-quebrada-norte-2",
+                "displayOrder": 2
+            }
+        ]
+    },
+    {
+        "title": "Casa Colonial Norteña",
+        "description": "Casa de estilo colonial restaurada con patio interior y espacios amplios para familias.",
+        "pricePerNight": 97000,
+        "maxGuest": 6,
+        "maxBedrooms": 3,
+        "address": "Calle Caseros 742",
+        "city": "Salta",
+        "images": [
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404490/casa-colonia-nortena-1.jpg",
+                "publicId": "casa-colonia-nortena-1",
+                "displayOrder": 1
+            },
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404487/casa-colonia-nortena-2.jpg",
+                "publicId": "casa-colonia-nortena-2",
+                "displayOrder": 2
+            }
+        ]
+    },
+    {
+        "title": "Cabaña Bosque Verde",
+        "description": "Cabaña acogedora rodeada de árboles, con chimenea y espacios pensados para descansar.",
+        "pricePerNight": 108000,
+        "maxGuest": 4,
+        "maxBedrooms": 2,
+        "address": "Calle del Bosque 520",
+        "city": "El Bolsón",
+        "images": [
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404491/cabana-bosque-verde-1.jpg",
+                "publicId": "cabana-bosque-verde-1",
+                "displayOrder": 1
+            },
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404488/cabana-bosque-verde-2.jpg",
+                "publicId": "cabana-bosque-verde-2",
+                "displayOrder": 2
+            }
+        ]
+    },
+    {
+        "title": "Hotel Mar del Plata",
+        "description": "Alojamiento cómodo a pocos minutos de la costa, ideal para disfrutar de unas vacaciones junto al mar.",
+        "pricePerNight": 100000,
+        "maxGuest": 4,
+        "maxBedrooms": 2,
+        "address": "Av. Colón 1240",
+        "city": "Mar del Plata",
+        "images": [
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404492/hotel-mar-del-plata-1.jpg",
+                "publicId": "hotel-mar-del-plata-1",
+                "displayOrder": 1
+            },
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404493/hotel-mar-del-plata-2.jpg",
+                "publicId": "hotel-mar-del-plata-2",
+                "displayOrder": 2
+            }
+        ]
+    },
+    {
+        "title": "Villa del Arroyo",
+        "description": "Casa de descanso con amplio jardín, ubicada en un entorno tranquilo y natural.",
+        "pricePerNight": 89000,
+        "maxGuest": 5,
+        "maxBedrooms": 2,
+        "address": "Los Álamos 275",
+        "city": "Tandil",
+        "images": [
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404491/villa-del-arroyo-1.jpg",
+                "publicId": "villa-del-arroyo-1",
+                "displayOrder": 1
+            },
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404493/villa-del-arroyo-2.jpg",
+                "publicId": "villa-del-arroyo-2",
+                "displayOrder": 2
+            }
+        ]
+    },
+    {
+        "title": "Lodge de los Viñedos",
+        "description": "Lodge exclusivo rodeado de viñedos con espacios amplios y vistas a la Cordillera.",
+        "pricePerNight": 175000,
+        "maxGuest": 4,
+        "maxBedrooms": 2,
+        "address": "Ruta del Vino 680",
+        "city": "Maipú",
+        "images": [
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404488/lodge-de-los-vinedos-1.jpg",
+                "publicId": "lodge-de-los-vinedos-1",
+                "displayOrder": 1
+            },
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404488/lodge-de-los-vinedos-2.jpg",
+                "publicId": "lodge-de-los-vinedos-2",
+                "displayOrder": 2
+            }
+        ]
+    },
+    {
+        "title": "Departamento Nueva Córdoba",
+        "description": "Departamento moderno y funcional cerca de universidades, restaurantes y principales puntos de interés.",
+        "pricePerNight": 70000,
+        "maxGuest": 2,
+        "maxBedrooms": 1,
+        "address": "Av. Hipólito Yrigoyen 920",
+        "city": "Córdoba",
+        "images": [
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404493/departamento-nueva-cordoba-1.jpg",
+                "publicId": "departamento-nueva-cordoba-1",
+                "displayOrder": 1
+            },
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404488/departamento-nueva-cordoba-2.jpg",
+                "publicId": "departamento-nueva-cordoba-2",
+                "displayOrder": 2
+            }
+        ]
+    },
+    {
+        "title": "Posada del Valle",
+        "description": "Pequeña posada de montaña con habitaciones confortables y un entorno natural privilegiado.",
+        "pricePerNight": 87000,
+        "maxGuest": 2,
+        "maxBedrooms": 1,
+        "address": "Camino del Valle 145",
+        "city": "Mina Clavero",
+        "images": [
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404492/posada-del-valle-1.jpg",
+                "publicId": "posada-del-valle-1",
+                "displayOrder": 1
+            },
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404488/posada-del-valle-2.jpg",
+                "publicId": "posada-del-valle-2",
+                "displayOrder": 2
+            }
+        ]
+    },
+    {
+        "title": "Lodge Costa del Río",
+        "description": "Cómodo lodge con acceso cercano al río, ideal para unas vacaciones relajadas.",
+        "pricePerNight": 93000,
+        "maxGuest": 6,
+        "maxBedrooms": 3,
+        "address": "Costanera 430",
+        "city": "San Pedro",
+        "images": [
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404487/lodge-costa-del-rio-1.jpg",
+                "publicId": "lodge-costa-del-rio-1",
+                "displayOrder": 1
+            }
+        ]
+    },
+    {
+        "title": "Hotel del Parque",
+        "description": "Hotel moderno con habitaciones luminosas y ubicación estratégica cerca de parques y zonas comerciales.",
+        "pricePerNight": 86000,
+        "maxGuest": 2,
+        "maxBedrooms": 1,
+        "address": "Av. Pellegrini 1120",
+        "city": "Rosario",
+        "images": [
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786406379/hotel-del-parque-1.jpg",
+                "publicId": "hotel-del-parque-1",
+                "displayOrder": 1
+            },
+            {
+                "url": "https://res.cloudinary.com/yjlh6ggz/image/upload/v1786404487/hotel-del-parque-2.jpg",
+                "publicId": "hotel-del-parque-2",
+                "displayOrder": 2
+            }
+        ]
+    }
+]

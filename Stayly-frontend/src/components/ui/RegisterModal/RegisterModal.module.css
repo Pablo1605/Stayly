@@ -1,0 +1,139 @@
+.principalContainer {
+  backdrop-filter: brightness(90%) blur(2px);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.secondaryContainer {
+  position: relative;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  width: 30rem;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  padding: 2rem 1.25rem 1.5rem;
+  box-sizing: border-box;
+}
+
+.buttonExitModal {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  width: 2rem;
+  top: 0.75rem;
+  right: 0.35rem;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.passwordInputGroup {
+  position: relative;
+  width: 100%;
+}
+
+.passwordInputGroup input {
+  padding-right: 3rem;
+}
+
+.passwordToggleButton {
+  position: relative;
+  right: -24.30rem;
+  top: -0.5rem;
+  transform: translateY(-100%);
+  background: transparent;
+  width: 2rem;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.passwordToggleButton:focus {
+  outline: none;
+}
+
+.passwordToggleButton .material-symbols-outlined {
+  font-size: 1.2rem;
+}
+
+.formGroup label {
+  font-size: 1.2rem;
+}
+
+
+.formGroup input {
+  background-color: var(--input-bg);
+  width: 27pc;
+  height: 2.7pc;
+  border-radius: 2pc;
+  border: none;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.buttonIs {
+  background-color: var(--bg-secondary);
+  color: var(--text-secondary);
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10pc;
+  margin-top: 15px;
+  width: 27pc;
+  height: 2.7pc;
+  cursor: pointer;
+}
+
+@media (max-width: 580px) {
+  .secondaryContainer {
+    width: 95vw;
+    padding: 1.75rem 1rem 1.25rem;
+    border-radius: 1rem;
+  }
+  
+  .formGroup input {
+    width: 21.3pc;
+  }
+
+  .buttonIs {
+    width: 21.3pc;
+  }
+
+  .passwordToggleButton {
+    right: -19rem;
+  }
+}
