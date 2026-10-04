@@ -2,14 +2,14 @@ FROM eclipse-temurin:21-jdk
 
 WORKDIR /app
 
-COPY Stayly-backend/gradlew .
-COPY Stayly-backend/gradle gradle
-COPY Stayly-backend/build.gradle .
-COPY Stayly-backend/settings.gradle .
+COPY gradlew .
+COPY gradle gradle
+COPY build.gradle .
+COPY settings.gradle .
 
 RUN chmod +x gradlew
 
-COPY Stayly-backend/src src
+COPY src src
 
 RUN ./gradlew bootJar --no-daemon
 
