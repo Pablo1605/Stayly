@@ -2,9 +2,17 @@ FROM eclipse-temurin:21-jdk
 
 WORKDIR /app
 
-COPY . .
+COPY Stayly-backend/gradlew .
+COPY Stayly-backend/gradle gradle
+COPY Stayly-backend/build.gradle .
+COPY Stayly-backend/settings.gradle .
 
 RUN chmod +x gradlew
-RUN ./gradlew build -x test
 
-CMD ["java", "-jar", "build/libs/Cashfy-api-0.0.1-SNAPSHOT.jar"]
+COPY Stayly-backend/src src
+
+RUN ./gradlew bootJar --no-daemon
+
+EXPOSE 8080
+
+CMD ["sh", "-c", "java -jar build/libs/*.jar"]
