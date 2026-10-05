@@ -2,7 +2,7 @@
 
 Stayly es una aplicación web para descubrir alojamientos y gestionar reservas. El proyecto reúne una API REST desarrollada con Spring Boot y Spring Security, una interfaz creada con React y TypeScript, y una base de datos PostgreSQL.
 
-Pagina en la web: https://stayly-psi.vercel.app/
+Proyecto en la web: https://stayly-psi.vercel.app/
 
 ## Capturas
 
