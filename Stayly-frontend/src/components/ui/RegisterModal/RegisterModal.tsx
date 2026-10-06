@@ -50,7 +50,7 @@ export const RegisterModal: FC<RegisterModalProps> = ({ onClose }) => {
         <div className={styles.principalContainer}>
             <div className={styles.secondaryContainer}>
                 <button className={styles.buttonExitModal} onClick={onClose}>X</button>
-                <h1>RegisterModal</h1>
+                <h1>Register</h1>
                 <form onSubmit={handleSubmit} className={styles.form}>
                     <div className={styles.formGroup}>
                         <label htmlFor="username">Username</label>
